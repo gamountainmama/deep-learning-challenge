@@ -18,7 +18,7 @@ Compiling, Training, and Evaluating the Model
 - The input dimension matches the number of columns in the X training data. The output dimension is one, either 0 for no success or 1 for success.
 - I used 50 neurons in the first and second layers, 40 neurons in the third layer, and 30 neurons in the fourth layer. I gradually increased the number of neurons to increase the accuracy of the model.
 - I was able to achieve 0.7502 or 75.02% accuracy after several tries.
-- I increased the accuracy by trying several combinations. My final accuracy was achieved by the following:
+- I increased the accuracy by trying several combinations. My final accuracy was achieved by the following:   
       -- Dropping EIN, NAME, STATUS, and SPECIAL_CONSIDERATIONS columns.
       -- Binning the small value counts of APPLICATION_TYPES and CLASSIFICATION. 
       -- Determining the outliers of the ASK_AMT column and dropping rows with outliers.   
